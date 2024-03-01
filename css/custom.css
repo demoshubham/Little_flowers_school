@@ -1,0 +1,164 @@
+/* nav bar media responsive */
+.brand-logo{
+    width: 60px;
+    margin-left: 1.5rem!important;
+    margin-right: 1rem!important;
+}
+.nav_name{
+    font-size: 2.2rem!important;
+}
+.brandaffilate{
+    font-size: 1.2rem!important;
+}
+@media only screen and (max-width: 703px) {
+    .brand-logo{
+        margin-left: 1rem!important;
+        margin-right: 0.7rem!important;
+    }
+    .nav_name{
+        font-size: 2rem!important;
+    }
+    .brandaffilate{
+        font-size: 1rem!important;
+    }
+}
+@media only screen and (max-width: 607px) {
+    .brand-logo{
+        width: 55px;
+        margin-left: 1rem!important;
+        margin-right: 0.7rem!important;
+    }
+    .nav_name{
+        font-size: 1.7rem!important;
+    }
+    .brandaffilate{
+        font-size: 0.8rem!important;
+    }
+    .brand-toggle-btn{
+        padding-inline:0.5rem;
+    }
+    .brand-toggle-btn-icon{
+        width:25px;
+    }
+}
+@media only screen and (max-width: 518px) {
+    .brand-logo{
+        width: 50px;
+        margin-left: 0.8rem!important;
+        margin-right: 0.5rem!important;
+    }
+    .nav_name{
+        font-size: 1.5rem!important;
+    }
+    .brandaffilate{
+        font-size: 0.7rem!important;
+    }
+    .brand-toggle-btn{
+        padding-inline:0.4rem;
+        margin-right: 1rem!important;
+    }
+    .brand-toggle-btn-icon{
+        width:25px;
+    }
+}
+@media only screen and (max-width: 455px) {
+    .brand-logo{
+        width: 45px;
+        margin-left: 0.4rem!important;
+        margin-right: 0.3rem!important;
+    }
+    .brand-toggle-btn{
+        padding-inline:0.2rem;
+        margin-right: 0.5rem!important;
+    }
+    .brand-toggle-btn-icon{
+        width:25px;
+    }
+}
+@media only screen and (max-width: 427px) {
+    .brand-logo{
+        display: none;
+    }
+}
+@media only screen and (max-width: 370px) {
+   
+    .nav_name{
+        font-size: 1.3rem!important;
+    }
+    .brandaffilate{
+        font-size: 0.6rem!important;
+    }
+    .brand-toggle-btn{
+        padding-inline:0.15rem;
+        margin-right: 0.3rem!important;
+    }
+}
+
+/* navbar media query done  end here*/
+
+
+
+/* hero seciton media start here */
+
+
+@media only screen and (max-width: 1000px) {
+    .hero_head{
+        font-size: 2.5rem!important;
+    }
+}
+@media only screen and (max-width: 825px) {
+    .hero_head{
+        font-size: 2rem!important;
+    }
+}
+@media only screen and (max-width: 580px) { 
+    .hero_para{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 446px) {
+    .hero_head{
+        font-size: 1.5rem!important;
+    }
+    .hero_para{
+        font-size: 1.2rem!important;
+    } 
+}
+
+.footer{
+    background-color: #333333e6!important;
+    color: #f2f2f2 !important;;
+}
+
+
+/* hero section end here */
+
+/* writing for small phns media  */
+
+
+
+/* course section css */
+.course-cont{
+    display: flex;
+    justify-content: center;
+}
+.course-cont>.card{
+    transition:all 0.5s ease-in-out;
+    
+    
+}
+.course-cont>.card:hover,.course-cont>.card:focus{
+    transform: scale(1.05);
+}
+
+
+
+/* back to top */
+@media only screen and (max-width: 586px) {
+    .back-to-top{
+        right: 45px;
+        bottom: 145px;
+        z-index: 99;
+    }
+}
